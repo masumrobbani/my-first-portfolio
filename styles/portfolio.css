@@ -62,7 +62,7 @@ nav li {
 .banner-title {
     font-weight: 700;
     font-size: 85px;
-    
+
 }
 
 .banner-sub-title {
@@ -84,7 +84,7 @@ main {
     margin: 0 auto;
 }
 
-section{
+section {
     margin-top: 130px;
 }
 
@@ -154,4 +154,51 @@ section{
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+    /* resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* contact style */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+}
+
+.contact .section-title{
+    text-align: left;
+    
 }
